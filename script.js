@@ -57,43 +57,43 @@ async function getWeather(cityName) {
 
    if(weather == "Clouds"){
 
-    weatherIcon.src = "images/cloudy.png";
+    weatherIcon.src = "cloudy.png";
 
 }
 
 else if(weather == "Clear"){
 
-    weatherIcon.src = "images/sunny.png";
+    weatherIcon.src = "sunny.png";
 
 }
 
 else if(weather == "Rain"){
 
-    weatherIcon.src = "images/rainy-day.png";
+    weatherIcon.src = "rainy-day.png";
 
 }
 
 else if(weather == "Drizzle"){
 
-    weatherIcon.src = "images/rainy-day.png";
+    weatherIcon.src = "rainy-day.png";
 
 }
 
 else if(weather == "Mist"){
 
-    weatherIcon.src = "images/mist.png";
+    weatherIcon.src = "mist.png";
 
 }
 
 else if(weather == "Snow"){
 
-    weatherIcon.src = "images/snowflake.png";
+    weatherIcon.src = "snowflake.png";
 
 }
 
 else if(weather == "Thunderstorm"){
 
-    weatherIcon.src = "images/thunder.png";
+    weatherIcon.src = "thunder.png";
 
 }
 

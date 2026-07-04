@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkyCast Weather</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="card">
+        <h1> SKYCAST</h1>
+        <div class="search">
+            <input type="text" id="search-bar" placeholder="Enter City Name">
+
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <div class="weather">
+           <img src="images/sunny.png" id="weather-icon" alt="Weather Icon">
+
+            <h2 id="city">Hyderabad, IN</h2>
+
+            <p id="date">
+                Monday, 1 June 2026
+            </p>
+
+            <h1 id="temp">30°C</h1>
+
+            <h3 id="condition">Clear Sky</h3>
+
+            <div class="details">
+
+                <div class="box">
+
+                    <i class="fa-solid fa-droplet"></i>
+
+                    <div>
+
+                        <h4>Humidity</h4>
+
+                        <p id="humidity">68%</p>
+
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <i class="fa-solid fa-wind"></i>
+
+                    <div>
+                        <h4>Wind Speed</h4>
+
+                        <p id="wind">14 km/h</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
